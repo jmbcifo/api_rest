@@ -1,6 +1,4 @@
 import 'dart:convert';
-import 'dart:developer';
-
 import 'package:api_rest/models/persons_model.dart';
 import 'package:http/http.dart' as http;
 
