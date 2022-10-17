@@ -17,7 +17,7 @@ class Country {
   int? population;
   List<int>? latlng;
   String? demonym;
-  int? area;
+  double? area;
   double? gini;
   List<String>? timezones;
   List<String>? borders;

@@ -2,15 +2,20 @@ class RegionalBlocs {
   String? acronym;
   String? name;
   List<String>? otherNames;
-  List<String>? otherAcronyms;
+  //dynamic otherAcronyms;
 
-  RegionalBlocs({this.acronym, this.name, this.otherNames, this.otherAcronyms});
+  RegionalBlocs({
+    this.acronym,
+    this.name,
+    this.otherNames,
+    //this.otherAcronyms,
+  });
 
   RegionalBlocs.fromJson(Map<String, dynamic> json) {
     acronym = json['acronym'];
     name = json['name'];
     otherNames = json['otherNames'].cast<String>();
-    otherAcronyms = json['otherAcronyms'].cast<String>();
+    // otherAcronyms = json['otherAcronyms'].cast<String>();
   }
 
   Map<String, dynamic> toJson() {
@@ -18,7 +23,7 @@ class RegionalBlocs {
     data['acronym'] = acronym;
     data['name'] = name;
     data['otherNames'] = otherNames;
-    data['otherAcronyms'] = otherAcronyms;
+    //data['otherAcronyms'] = otherAcronyms;
     return data;
   }
 }
