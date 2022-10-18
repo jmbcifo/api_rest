@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'dart:developer';
 
-import 'package:api_rest/models/countries_models/country_model.dart';
+import 'package:api_rest/models/countries_models_v2/country_model.dart';
 import 'package:http/http.dart' as http;
 
 class ResCountriesServices {

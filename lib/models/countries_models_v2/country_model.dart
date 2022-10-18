@@ -1,8 +1,8 @@
-import 'package:api_rest/models/countries_models/currencies_model.dart';
-import 'package:api_rest/models/countries_models/flags_model.dart';
-import 'package:api_rest/models/countries_models/lenguages_model.dart';
-import 'package:api_rest/models/countries_models/reginal_blocs_model.dart';
-import 'package:api_rest/models/countries_models/translations_model.dart';
+import 'package:api_rest/models/countries_models_v2/currencies_model.dart';
+import 'package:api_rest/models/countries_models_v2/flags_model.dart';
+import 'package:api_rest/models/countries_models_v2/lenguages_model.dart';
+import 'package:api_rest/models/countries_models_v2/reginal_blocs_model.dart';
+import 'package:api_rest/models/countries_models_v2/translations_model.dart';
 
 class Country {
   String? name;
